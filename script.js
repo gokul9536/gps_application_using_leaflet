@@ -19,7 +19,7 @@ if (navigator.geolocation) {
         }).addTo(map);
 
         L.marker([latitude, longitude]).addTo(map) // ✅ Fixed method name
-            .bindPopup("Your live location")
+            .bindPopup("Your are Here !")
             .openPopup();
     }, 
     (err) => {
