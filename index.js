@@ -6,8 +6,8 @@ if(navigator.geolocation) {
         const latitude = position.coords.latitude;
         const longitude = position.coords.longitude;
 
-        latDiv.innerHTML = `Latitude : ${latitude}`;
-        longDiv.innerHTML = `Longitude : ${longitude}`;
+        latDiv.innerHTML = `Lat : ${latitude}`;
+        longDiv.innerHTML = `Lon : ${longitude}`;
     }, 
     (err) => {
         alert("Location cannot be tracked");
